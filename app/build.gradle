@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        applicationId "com.technologies.cleo.cleochat"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+    buildToolsVersion '25.0.0'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile "com.android.support:appcompat-v7:$rootProject.ext.supportLibraryVersion"
+    compile "com.android.support:support-v4:$rootProject.ext.supportLibraryVersion"
+    compile "com.android.support:recyclerview-v7:$rootProject.ext.supportLibraryVersion"
+    compile "com.google.firebase:firebase-core:$rootProject.ext.firebaseClientVersion"
+    compile "com.google.firebase:firebase-database:$rootProject.ext.firebaseClientVersion"
+    compile "com.google.firebase:firebase-auth:$rootProject.ext.firebaseClientVersion"
+    compile "com.jakewharton:butterknife:$rootProject.ext.butterknifeVersion"
+    compile "org.greenrobot:eventbus:$rootProject.ext.eventbusVersion"
+    compile "com.github.bumptech.glide:glide:$rootProject.ext.glideVersion"
+    compile "de.hdodenhof:circleimageview:$rootProject.ext.circleImageViewVersion"
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
+
+    testCompile 'junit:junit:4.12'
+
+    compile (
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.4.1'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.4.1'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.4.1']
+    )
+}
+
+apply plugin: 'com.google.gms.google-services'

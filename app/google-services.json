@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "767375123543",
+    "firebase_url": "https://cleito-chat.firebaseio.com",
+    "project_id": "cleito-chat",
+    "storage_bucket": "cleito-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767375123543:android:3bbb47986b891482",
+        "android_client_info": {
+          "package_name": "com.technologies.cleo.cleochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767375123543-lcsr08qtscsso5d8ecdafu2qn1e989jp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASXOjgYQCJn0PED32XDSeB-lBbvE1aWow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
