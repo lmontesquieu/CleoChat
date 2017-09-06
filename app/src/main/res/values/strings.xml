@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CleoChat</string>
+    <string name="app_name">MoveDetector</string>
     <string name="login.message.email">Correo electrónico</string>
     <string name="login.message.password">Contraseña</string>
     <string name="login.button.signin">Inicio de sesión</string>
