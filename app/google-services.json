@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "767375123543",
-    "firebase_url": "https://cleito-chat.firebaseio.com",
-    "project_id": "cleito-chat",
-    "storage_bucket": "cleito-chat.appspot.com"
+    "project_number": "34501640050",
+    "firebase_url": "https://cleito-move.firebaseio.com",
+    "project_id": "cleito-move",
+    "storage_bucket": "cleito-move.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:767375123543:android:3bbb47986b891482",
+        "mobilesdk_app_id": "1:34501640050:android:3f7ef50d65372e02",
         "android_client_info": {
-          "package_name": "com.technologies.cleo.cleochat"
+          "package_name": "com.technologies.cleo.cleomove"
         }
       },
       "oauth_client": [
         {
-          "client_id": "767375123543-lcsr08qtscsso5d8ecdafu2qn1e989jp.apps.googleusercontent.com",
+          "client_id": "34501640050-c5hdl9bs94k617mejni29hpjhbj1smod.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyASXOjgYQCJn0PED32XDSeB-lBbvE1aWow"
+          "current_key": "AIzaSyA_A4YzI7YKqzBd07F2pSJ2l6UHdgNqTYc"
         }
       ],
       "services": {
